@@ -1,0 +1,88 @@
+.card{
+  width: 216px;
+  background-color: #ffe6e6 !important;
+  border-radius: 0.6em !important;
+  cursor: pointer;
+  padding: 10px;
+}
+.card:hover{
+  box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%), 0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
+  transition: all ease 200ms;
+}
+.cardimage{
+  background-color: white;
+  padding: 5px;
+}
+img{
+  width: 100%;
+  height: 180px;
+}
+.section{
+  text-align: center;
+}
+.heading{
+  background-color: black;
+  color: white;
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+.quantity{
+  display: flex;
+  justify-content:center;
+}
+
+/*  */
+
+@keyframes customEnterOverlayAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveOverlayAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes customEnterModalAnimation {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveModalAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+
+.customModal{
+  width: 100%;
+  min-height: 100px;
+  background-color: #e2e6ea !important;
+}
+.circularBtn{
+  width: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.footer{
+  background-color: #fff;
+  padding: 5px;
+  text-align: right;
+}
